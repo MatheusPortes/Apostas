@@ -1,0 +1,12 @@
+.label{
+    width: 100%;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.section_futebol{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+}

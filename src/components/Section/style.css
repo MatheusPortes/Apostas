@@ -1,0 +1,12 @@
+.init{
+    min-height: 100vh;
+    height: auto;
+    margin-left: 10px;
+    background-color: whitesmoke;
+    border-top-left-radius: 10px;
+}
+
+.text-center{
+    text-align: center;
+    color: aqua;
+}

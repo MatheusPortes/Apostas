@@ -1,0 +1,9 @@
+.loading{
+   flex: 1;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   /* background-color: rgba(0,0,0,0.3); */
+   height: 100vh;
+}

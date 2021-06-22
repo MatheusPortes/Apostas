@@ -1,0 +1,47 @@
+.card{
+    width: 100%;
+    max-width: 340px;
+    height: 200px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: #fdd705;
+    padding: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 3px 3px 3px black;
+}
+/* #0f526d */
+
+@media  (max-width: 600px) {
+    .card{
+        width: 100%;
+        max-width: none;
+        background-color: aquamarine;
+    }
+}
+footer{
+   border: 1px solid aliceblue;
+   background-color: aliceblue;
+   font-family: 'Courier New', Courier, monospace;
+   height: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 20px;
+}
+
+footer:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+
+.text:hover{
+    color: #000;
+    font-size: x-large;
+}
+
+.text{
+    color: rgb(53, 52, 52);
+}

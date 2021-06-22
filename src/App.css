@@ -1,0 +1,87 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+main{
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.menu-lateral{
+  max-width: 225px;
+  width: 225px;
+  background-color: #000;
+  position: relative;
+  float: left;
+}
+
+.menu-lateral li span{
+  color: #fff;
+}
+
+.menu-lateral ul {
+  width: 90%;
+  margin: 50px auto;
+  list-style: none;
+}
+
+.logo{
+  width: 90%;
+  height: 180px;
+  background-color: aliceblue;
+  align-self: center;
+  margin: 10px auto;
+  border-radius: 10px;
+  background-image: url('https://quizizz.com/_media/quizzes/0383dbf1-7ff5-4f98-83ac-26b93f9681bf_900_900');
+  background-size: cover;
+  background-clip: border-box;
+  border: 2px solid #FDD705;
+}
+
+a{
+  text-decoration: none;
+}
+
+.sections{
+  width: 100%;
+  background-color: #FDD705;
+  height: auto;
+}
+
+h1{
+  font-size: 30px;
+}
+
+.link{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  padding: 8px;
+}
+
+.link:hover{
+  background-color: grey;
+  border-radius: 10px;
+  border: 1px solid #fff;
+}
+
+.link:active{
+  background-color: grey;
+  border-radius: 10px;
+  border: 1px solid #fff;
+}
+
+.btnLogin{
+  padding: 10px;
+  background-color: #FDD705;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #fff;
+  margin-top: 10px;
+}
